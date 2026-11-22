@@ -1,0 +1,53 @@
+{
+    "enquestes":[
+    {
+        "id": 1,
+        "titol": "Votacio 29N",
+        "activa": true,
+        "preguntes": [{
+                "ordre": 1,
+                "text": "Aniras a votar el dia 29 de novembre?",
+                "tipus": "opcio_multiple",
+                "opcions": [
+                    "Si",
+                    "No",
+                    "No ho se"
+                ]
+            
+            },
+
+            {
+                "ordre": 2,
+                "text":"A quin partit tens pensat votar?",
+                "tipus": "text_lliure"
+            }
+        
+
+        ]
+    },
+    {
+        "id": 2,
+        "titol": "Adopcio animals",
+        "activa": true,
+        "preguntes":[
+            {
+                "ordre": 1,
+                "text": "Estaries dispost a adoptar un animal?",
+                "tipus":"opcio_multiple",
+                "opcions":[
+                    "Si",
+                    "No",
+                    "No ho se"
+                ]
+
+            },
+            {
+                "ordre": 2,
+                "text":"Quin tipues d'animal t'agradaria? Si la resposta es 'no' dins el perque.",
+                "tipus":"text_lliure"
+            }
+        ]
+    }
+    ]
+
+}
