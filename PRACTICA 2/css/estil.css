@@ -1,0 +1,68 @@
+body {
+  /*utilizamos flexbox para organizar los elementos en varias filas y reparto el espacio entre ellos*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0%;
+}
+header a:hover {
+  /*Cambiamos el color al pasar el raton encima del enlace*/
+  color: #27ae60;
+}
+nav ul {
+  /*Pasamos la lista a horixontal y le indicamos el espacio entre elementos*/
+  display: flex;
+  gap: 20px;
+}
+main {
+  /*Elegimos el ancho del elemento main*/
+  width: 70%;
+}
+aside {
+  /*elegimos el ancho del elemento aside*/
+  width: 28%;
+}
+header
+{
+  /*Añadimos padding para separar el contenido de los bordes, con border-box ese espacio queda incluido en el ancho,  aplicamos fondo y color de texto. Por ultimo con flex separamos el tituto de la navegacion*/
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0%;
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  /*añadimos el color de la letra en blanco a los enlaces del header*/
+  color: white;
+}
+article{
+  /* borde lateral izquierdo verde, espacio para que las letras no esten en el borde y separacion de los elementos para cuadras las lineas verdes y añadimos sombra*/
+  border-left: 4px solid #27ae60;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+aside {
+  /*Aplicamos fondo al elemento aside*/
+  background-color: #ecf0f1;
+}
+aside li::marker {
+  /*aplicamos el color a los puntos de la lista de aside li*/
+  color: #27ae60;
+}
+aside h2{
+  /*Centramos el titulo del elemento aside y le damos un color*/
+  text-align: center;
+  color: #1E5631;
+}
+footer {
+  /*Ancho del footer 100% fondo negro y color del texto y centrado*/
+  width: 100%;
+  text-align: center;
+  background-color: #2c3e50;
+  color: #d3d3d3;
+}
